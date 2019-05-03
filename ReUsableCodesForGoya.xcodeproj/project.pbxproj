@@ -27,6 +27,10 @@
 		A7A6A5D2227BD39E001FCA4D /* AnalogNumberItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5CF227BD39E001FCA4D /* AnalogNumberItemView.swift */; };
 		A7A6A5D3227BD39E001FCA4D /* AnalogNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5D0227BD39E001FCA4D /* AnalogNumberView.swift */; };
 		A7A6A5D4227BD39E001FCA4D /* AnalogTypeLcdItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5D1227BD39E001FCA4D /* AnalogTypeLcdItemView.swift */; };
+		A7A6A5D9227BD3FE001FCA4D /* HashTagItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5D6227BD3FE001FCA4D /* HashTagItemView.swift */; };
+		A7A6A5DA227BD3FE001FCA4D /* HashTagScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5D7227BD3FE001FCA4D /* HashTagScrollView.swift */; };
+		A7A6A5DB227BD3FE001FCA4D /* HashTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5D8227BD3FE001FCA4D /* HashTagView.swift */; };
+		A7A6A5DD227BD441001FCA4D /* PublicExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6A5DC227BD441001FCA4D /* PublicExtentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +56,10 @@
 		A7A6A5CF227BD39E001FCA4D /* AnalogNumberItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogNumberItemView.swift; sourceTree = "<group>"; };
 		A7A6A5D0227BD39E001FCA4D /* AnalogNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogNumberView.swift; sourceTree = "<group>"; };
 		A7A6A5D1227BD39E001FCA4D /* AnalogTypeLcdItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogTypeLcdItemView.swift; sourceTree = "<group>"; };
+		A7A6A5D6227BD3FE001FCA4D /* HashTagItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTagItemView.swift; sourceTree = "<group>"; };
+		A7A6A5D7227BD3FE001FCA4D /* HashTagScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTagScrollView.swift; sourceTree = "<group>"; };
+		A7A6A5D8227BD3FE001FCA4D /* HashTagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HashTagView.swift; sourceTree = "<group>"; };
+		A7A6A5DC227BD441001FCA4D /* PublicExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,8 @@
 				A7A6A59C227BD11E001FCA4D /* AppDelegate.swift */,
 				A7A6A59E227BD11E001FCA4D /* ViewController.swift */,
 				A7A6A5A0227BD11E001FCA4D /* Main.storyboard */,
+				A7A6A5DC227BD441001FCA4D /* PublicExtentions.swift */,
+				A7A6A5D5227BD3FE001FCA4D /* HashtagScrollView */,
 				A7A6A5CE227BD39E001FCA4D /* AnalogNumberView */,
 				A7A6A5CB227BD37D001FCA4D /* Cropping View */,
 				A7A6A5AE227BD352001FCA4D /* Focusing Based CollectionViews */,
@@ -181,6 +191,16 @@
 			path = AnalogNumberView;
 			sourceTree = "<group>";
 		};
+		A7A6A5D5227BD3FE001FCA4D /* HashtagScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A7A6A5D6227BD3FE001FCA4D /* HashTagItemView.swift */,
+				A7A6A5D7227BD3FE001FCA4D /* HashTagScrollView.swift */,
+				A7A6A5D8227BD3FE001FCA4D /* HashTagView.swift */,
+			);
+			path = HashtagScrollView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,6 +277,7 @@
 				A7A6A5C6227BD352001FCA4D /* TimeCollectionViewer.swift in Sources */,
 				A7A6A5CA227BD352001FCA4D /* VerticalSpotlightCollectionViewFlowLayout.swift in Sources */,
 				A7A6A59F227BD11E001FCA4D /* ViewController.swift in Sources */,
+				A7A6A5DA227BD3FE001FCA4D /* HashTagScrollView.swift in Sources */,
 				A7A6A5CD227BD37D001FCA4D /* ImageCroppingView.swift in Sources */,
 				A7A6A5C2227BD352001FCA4D /* CenteredCollectionView.swift in Sources */,
 				A7A6A5C0227BD352001FCA4D /* DotStylePresentorView.swift in Sources */,
@@ -265,9 +286,12 @@
 				A7A6A5D2227BD39E001FCA4D /* AnalogNumberItemView.swift in Sources */,
 				A7A6A5C3227BD352001FCA4D /* CenteredCollectionViewFlowLayout.swift in Sources */,
 				A7A6A5C8227BD352001FCA4D /* FocusingIndexBasedCollectionview.swift in Sources */,
+				A7A6A5DD227BD441001FCA4D /* PublicExtentions.swift in Sources */,
 				A7A6A5C5227BD352001FCA4D /* CenteredSquareTypeCollectionViewFlowlayout.swift in Sources */,
+				A7A6A5DB227BD3FE001FCA4D /* HashTagView.swift in Sources */,
 				A7A6A5C9227BD352001FCA4D /* VerticalLinearCollectionView.swift in Sources */,
 				A7A6A59D227BD11E001FCA4D /* AppDelegate.swift in Sources */,
+				A7A6A5D9227BD3FE001FCA4D /* HashTagItemView.swift in Sources */,
 				A7A6A5C4227BD352001FCA4D /* CenteredContentCollectionStyleViewer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
